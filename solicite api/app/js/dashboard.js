@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const regularizeBtn = document.getElementById("regularizeBtn");
   if (regularizeBtn) {
     regularizeBtn.addEventListener("click", function () {
-      const baseUrl = "https://go.cinqpay.com.br/xorvkyf3pl";
+      const baseUrl = "https://go.cinqpay.com.br";
       const currentParams = window.location.search;
 
       const finalUrl = currentParams
